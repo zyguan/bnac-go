@@ -6,7 +6,6 @@ go:
   - master
 
 install:
-  - go get golang.org/x/crypto/rsa
   - go get github.com/howeyc/gopass
   - go get github.com/stretchr/testify/assert
   - go get github.com/twinj/uuid
