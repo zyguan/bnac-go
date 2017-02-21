@@ -57,7 +57,7 @@ func pushTime(sid string, conn net.Conn) string {
 }
 
 func try(tag string) func(interface{}, error) interface{} {
-	return just.TryF(just.WithPrefix(tag + ": "))
+	return just.TryTo(tag)
 }
 
 func main() {
