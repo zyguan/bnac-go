@@ -6,7 +6,5 @@ go:
   - master
 
 install:
-  - go get github.com/howeyc/gopass
-  - go get github.com/stretchr/testify/assert
-  - go get github.com/twinj/uuid
-  - go get github.com/zyguan/just
+  - go get -v github.com/Masterminds/glide
+  - glide install
