@@ -3,12 +3,6 @@ import:
 - package: github.com/howeyc/gopass
 - package: github.com/twinj/uuid
 - package: github.com/zyguan/just
-- package: golang.org/x/crypto
-  subpackages:
-  - ssh/terminal
-- package: golang.org/x/sys
-  subpackages:
-  - unix
 testImport:
 - package: github.com/stretchr/testify
   subpackages:
