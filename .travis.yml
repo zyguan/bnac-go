@@ -8,3 +8,6 @@ go:
 install:
   - go get -v github.com/Masterminds/glide
   - glide install
+
+script:
+  - script: go test $(glide novendor)
